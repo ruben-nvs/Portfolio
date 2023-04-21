@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@keyframes load {
+    from{
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+body {
+    background-color: #FEFAE0;
+}
+
+#body {
+    animation-name: load;
+    animation-duration: 1s;
+}
+
+#navigation_bar ul {
+    background-color: #CCD5AE;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+#navigation_bar li { 
+    float: left;
+}
+
+#navigation_bar li a { 
+    display: block;
+    color: #000;
+    margin-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 14px 0px;
+}
+
+#navigation_bar li a:hover {
+    color: #fff;
+}
+
+#title_page {
+    color: #000;
+    font-size: 56px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#avatar {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#presentation {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    width: 60%;
+    max-width: 1140px;
+    min-width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#homepage_button {
+    color: #D4A373;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 296px;
+    padding: 8.5px 0px;
+}
+
+#homepage_button:hover {
+    background-color: #D4A373;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FEFAE0;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 296px;
+    padding: 8.5px 0px;
+}
+
+#margin {
+    height: 50px;
+}
+
+#footer {
+    margin-bottom: 0;
+    background-color: #FAEDCD;
+}
+
+#social {
+    text-align: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}
+
+#copyright {
+    text-align: center;
+    color: #D4A373;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subtitle {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.subtitle2 {
+    margin-top: 0px;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+#recycler_view {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.item {
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    background-color: #FAEDCD;
+    border-radius: 30px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.item:hover {
+    transform: scale(1.025);
+}
+
+.item img {
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linear_layout_vertical {
+    display: contents;
+    text-align: center;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+
+}
+
+.creation_title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.creation_type {
+    font-weight: 400; 
+}
+
+.working {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#choice1 {
+    margin-top: 150px;
+}
+
+.choice {
+    margin-top: 25px;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+}
+
+.username {
+    margin-top: 25px;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon2 {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#oder {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+}
+
+.item_contact {
+    background-color: #FAEDCD;
+    padding: 25px;
+    border-radius: 30px;
+    width: 30%;
+    min-width: 350px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.images {
+    display: flex;
+    animation-duration: 30s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+#caroussel {
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 65%;
+    min-width: 400px;
+    max-width: 710px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#creation_title_page {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#explication {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+
+#gotosite{
+    color: #D4A373;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gotosite:hover {
+    color: #fff;
+}
+
+#bloc {
+    margin-top: 150px;
+    background-color: #FAEDCD;
+    border-radius: 30px;
+    padding: 25px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
